@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or reference this framework, please cite it as below."
+title: "Agentic Search Optimization (ASO) Framework"
+type: software
+authors:
+  - family-names: "Xu"
+    given-names: "Shen"
+version: "1.0.0"
+date-released: 2026-09-16
+license: MIT
+abstract: "An open-source framework and evaluation tool for measuring whether AI agents can discover, understand, verify, qualify, select, and act on brands, products, services, and other entities."
+keywords:
+  - Agentic Search Optimization
+  - ASO
+  - AI Visibility
+  - Agentic Search
+  - AI Agents
+  - Decision Authority
+  - Agentic Commerce

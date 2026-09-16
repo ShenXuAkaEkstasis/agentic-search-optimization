@@ -1,0 +1,18 @@
+# Agentic Search Optimization (ASO) Framework
+
+Author: Shen Xu
+Version: 1.0.0
+Year: 2026
+License: MIT
+
+The Agentic Search Optimization (ASO) Framework is an open-source evaluation methodology for assessing whether AI agents can move an entity through six decision stages:
+
+Discover -> Understand -> Verify -> Qualify -> Select -> Act
+
+The framework contains 24 criteria and uses weighted stage scoring. Its focus is not merely whether an entity is mentioned or cited by an AI system, but whether the entity can progress through verification, qualification, selection, and action in an agentic decision process.
+
+Canonical project files:
+- README.md: human-readable project and methodology overview
+- framework.json: machine-readable framework structure
+- CITATION.cff: citation metadata
+- LICENSE: MIT license

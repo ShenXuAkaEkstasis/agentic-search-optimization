@@ -1,0 +1,47 @@
+{
+  "name": "Agentic Search Optimization (ASO) Framework",
+  "version": "1.0.0",
+  "author": "Shen Xu",
+  "year": 2026,
+  "license": "MIT",
+  "description": "An open-source framework for evaluating whether AI agents can discover, understand, verify, qualify, select, and act on an entity.",
+  "scoring_scale": {"min": 0, "max": 5},
+  "stages": [
+    {
+      "key": "discover",
+      "name": "Discover",
+      "weight": 0.15,
+      "criteria": ["Task-query presence", "Source coverage", "Entity resolution", "Freshness"]
+    },
+    {
+      "key": "understand",
+      "name": "Understand",
+      "weight": 0.15,
+      "criteria": ["Category clarity", "Attribute clarity", "Semantic consistency", "Entity relationships"]
+    },
+    {
+      "key": "verify",
+      "name": "Verify",
+      "weight": 0.20,
+      "criteria": ["Claim-to-evidence mapping", "Third-party corroboration", "Citation quality", "Provenance clarity"]
+    },
+    {
+      "key": "qualify",
+      "name": "Qualify",
+      "weight": 0.15,
+      "criteria": ["Requirement coverage", "Constraint transparency", "Comparison readiness", "Risk reduction"]
+    },
+    {
+      "key": "select",
+      "name": "Select",
+      "weight": 0.25,
+      "criteria": ["Decision-relevant differentiation", "Proof strength", "Evidence consensus", "Preference fit"]
+    },
+    {
+      "key": "act",
+      "name": "Act",
+      "weight": 0.10,
+      "criteria": ["Action path clarity", "Machine-action readiness", "Transaction information", "Handoff readiness"]
+    }
+  ]
+}
