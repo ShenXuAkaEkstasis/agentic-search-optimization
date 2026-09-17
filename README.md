@@ -3,6 +3,8 @@
 **Version:** v1.0 Research Preview
 **Author:** Shen Xu
 **Purpose:** Framework validation, case-study evidence collection, and reproducible ASO assessment.
+**Live Demo:** [Hugging Face Spaces](https://huggingface.co/spaces/ShenXu1013/agentic-search-optimization)
+**Source Code:** [GitHub Repository](https://github.com/ShenXuAkaEkstasis/agentic-search-optimization)
 
 This repository is a public research-preview implementation of an **Agentic Search Optimization (ASO)** evaluation framework.
 
