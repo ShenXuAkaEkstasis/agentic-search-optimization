@@ -1,88 +1,70 @@
-# Agentic Search Optimization (ASO) Framework
+---
+title: ASO Framework Evaluator
+emoji: 🧭
+colorFrom: blue
+colorTo: indigo
+sdk: static
+app_file: index.html
+fullWidth: true
+header: mini
+short_description: Research-preview ASO readiness assessment workspace
+---
 
-**Live Demo:** https://aso-framework.vercel.app/
+# ASO Framework — Agentic Search Optimization Evaluator
 
-An **open-source framework and evaluation tool** for Agentic Search Optimization (ASO), developed by **Shen Xu**.
+**Version:** v1.0 Research Preview  
+**Author:** Shen Xu  
+**Purpose:** Framework validation, case-study evidence collection, and reproducible ASO assessment.
 
-ASO evaluates whether AI agents can move an entity through six decision stages:
+This Space is a public research-preview implementation of an **Agentic Search Optimization (ASO)** evaluation framework.
+
+## Framework
 
 **Discover → Understand → Verify → Qualify → Select → Act**
 
-The project is designed to make agentic selection readiness measurable, auditable, and easier to compare across entities, brands, products, and services.
+The framework contains **24 criteria**, four per stage, scored from 0–5 and normalized into a 0–100 readiness score.
 
-## What is included
+### Heuristic v1.0 stage weights
 
-- Six-stage ASO Framework v1.0
-- 24 scored criteria with weighted ASO Score
-- Baseline vs. current scoring and Selection Lift
-- Criterion-level evidence provenance, source type, note, and URL
-- Evidence Confidence calculation
-- Evaluation Lab with:
-  - built-in demo engine
-  - optional BYO OpenAI-compatible endpoint, model, and API key
-  - repeatable decision-query probes
-  - Discover / Verify / Qualify / Select / Act signals
-- Competitive benchmark and six-stage radar visualization
-- Judge-ready report view
+- Discover — 15%
+- Understand — 15%
+- Verify — 20%
+- Qualify — 15%
+- Select — 25%
+- Act — 10%
+
+These weights are **heuristic research-preview weights**. They are intended for validation through real cases and benchmark experiments and are not presented as an externally validated scientific or industry standard.
+
+## What the tool includes
+
+- 24-criterion ASO assessment workspace
+- Baseline vs current **Readiness Delta**
+- Criterion-level evidence notes and traceable URLs
+- **Evidence Coverage** based on completion of evidence notes and URLs
+- Manual competitor benchmark
+- Illustrative decision-query probes
+- Experimental BYO endpoint mode
 - JSON import/export
 - CSV evidence export
-- Print / Save PDF
+- Print / Save PDF report
 - Local browser persistence
-- Responsive single-file front end
-- Static deployment support for Vercel
 
-## Methodology
+## Important methodology note
 
-The framework uses six weighted stages:
+The framework score and the decision-query probe layer are deliberately separated. Probe outputs do **not** automatically overwrite the 24 criterion scores. This keeps model-run signals distinct from evidence-based assessment.
 
-| Stage | Weight |
-|---|---:|
-| Discover | 15% |
-| Understand | 15% |
-| Verify | 20% |
-| Qualify | 15% |
-| Select | 25% |
-| Act | 10% |
+Evidence Coverage measures documentation completeness, not source quality or truth. Third-party corroboration and source quality are assessed separately inside the framework criteria.
 
-Each stage contains four criteria scored from 0–5. Scores are normalized to 100 and combined using the stage weights above.
+## Privacy
 
-The framework score and live model-run signals are intentionally kept separate. The framework score is evidence-based; Evaluation Lab results are probe outputs from the selected model endpoint.
+The static app stores assessment state in your browser local storage. The experimental endpoint mode does not store API keys in local storage, but users should use test credentials only and confirm the endpoint permits browser requests.
 
-## Open source
+## Status
 
-This project is released as open-source software under the **MIT License**. You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software subject to the terms of the license.
+**v1.0 — Research Preview / Prototype.**
 
-See [`LICENSE`](LICENSE).
-
-## Run locally
-
-```bash
-python3 -m http.server 8080
-```
-
-Then open:
-
-```text
-http://localhost:8080
-```
-
-## Deploy to Vercel
-
-No build step is required. Import this repository into Vercel and deploy it as a static site. `index.html` is the entry point.
+Planned validation work includes URL-based evidence capture, repeated cross-model decision probes, real client before/after cases, benchmark datasets, and methodology calibration.
 
 ## Citation
 
-If you reference the framework in research, analysis, documentation, or a publication, please cite:
-
-> Xu, Shen. *Agentic Search Optimization (ASO) Framework v1.0*. 2026.
-
-A machine-readable citation file is included as [`CITATION.cff`](CITATION.cff).
-
-## Framework status
-
-**Version:** 1.0 prototype  
-**Author:** Shen Xu  
-**Year:** 2026  
-**License:** MIT  
-
-The framework is an original applied methodology and evaluation model. It should not be represented as an externally standardized scientific or regulatory benchmark.
+Xu, Shen. *ASO Framework — Agentic Search Optimization Evaluator*, v1.0 Research Preview, 2026.
