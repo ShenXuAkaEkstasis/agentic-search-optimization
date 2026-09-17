@@ -1,22 +1,10 @@
----
-title: ASO Framework Evaluator
-emoji: 🧭
-colorFrom: blue
-colorTo: indigo
-sdk: static
-app_file: index.html
-fullWidth: true
-header: mini
-short_description: Research-preview ASO readiness assessment workspace
----
-
 # ASO Framework — Agentic Search Optimization Evaluator
 
-**Version:** v1.0 Research Preview  
-**Author:** Shen Xu  
+**Version:** v1.0 Research Preview
+**Author:** Shen Xu
 **Purpose:** Framework validation, case-study evidence collection, and reproducible ASO assessment.
 
-This Space is a public research-preview implementation of an **Agentic Search Optimization (ASO)** evaluation framework.
+This repository is a public research-preview implementation of an **Agentic Search Optimization (ASO)** evaluation framework.
 
 ## Framework
 
@@ -26,28 +14,28 @@ The framework contains **24 criteria**, four per stage, scored from 0–5 and no
 
 ### Heuristic v1.0 stage weights
 
-- Discover — 15%
-- Understand — 15%
-- Verify — 20%
-- Qualify — 15%
-- Select — 25%
-- Act — 10%
+* Discover — 15%
+* Understand — 15%
+* Verify — 20%
+* Qualify — 15%
+* Select — 25%
+* Act — 10%
 
 These weights are **heuristic research-preview weights**. They are intended for validation through real cases and benchmark experiments and are not presented as an externally validated scientific or industry standard.
 
 ## What the tool includes
 
-- 24-criterion ASO assessment workspace
-- Baseline vs current **Readiness Delta**
-- Criterion-level evidence notes and traceable URLs
-- **Evidence Coverage** based on completion of evidence notes and URLs
-- Manual competitor benchmark
-- Illustrative decision-query probes
-- Experimental BYO endpoint mode
-- JSON import/export
-- CSV evidence export
-- Print / Save PDF report
-- Local browser persistence
+* 24-criterion ASO assessment workspace
+* Baseline vs current **Readiness Delta**
+* Criterion-level evidence notes and traceable URLs
+* **Evidence Coverage** based on completion of evidence notes and URLs
+* Manual competitor benchmark
+* Illustrative decision-query probes
+* Experimental BYO endpoint mode
+* JSON import/export
+* CSV evidence export
+* Print / Save PDF report
+* Local browser persistence
 
 ## Important methodology note
 
