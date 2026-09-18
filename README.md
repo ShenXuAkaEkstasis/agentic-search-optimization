@@ -5,6 +5,7 @@
 **Purpose:** Framework validation, case-study evidence collection, and reproducible ASO assessment.
 **Live Demo:** [Hugging Face Spaces](https://huggingface.co/spaces/ShenXu1013/agentic-search-optimization)
 **Source Code:** [GitHub Repository](https://github.com/ShenXuAkaEkstasis/agentic-search-optimization)
+**Product Hunt:** [ASO Framework — Agentic Search](https://www.producthunt.com/products/aso-framework-agentic-search?launch=aso-framework-agentic-search)
 
 This repository is a public research-preview implementation of an **Agentic Search Optimization (ASO)** evaluation framework.
 
